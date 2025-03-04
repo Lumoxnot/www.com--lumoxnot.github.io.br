@@ -1,0 +1,1 @@
+export const bas = "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";
