@@ -43,7 +43,7 @@ if (formPerguntaChat) {
         try {
 
 
-         const resposta = await fetch("https://api.openai.com/v1/models", {
+         const resposta = await fetch("https://api.openai.com/v1/responses", {
             // Método para enviar os dados
             method: "POST",
             // Dados enviados no cabeçalho da requisição
